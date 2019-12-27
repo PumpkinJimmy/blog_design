@@ -70,12 +70,14 @@ body {
 	font-size:18px;
 	text-indent: 2em;
 	margin-bottom: 30px;
+	color: #444444;
 }
 #nav {
 	list-style-type:none;
 	padding:0;
 }
 #nav>li>a{
+	transition: background-color 0.5s;
 	display:block;
 	color:#555555;
 	text-decoration:none;
@@ -84,6 +86,7 @@ body {
 	padding-left:25px;
 }
 #nav>li>a:hover{
+	transition: background-color 0.5s;
 	background-color: #f4f4f4;
 }
 .nav-brand{
@@ -92,4 +95,19 @@ body {
 	margin:0;
 	padding:0;
 	margin-right:8px;
+	width: 20px;
+}
+.brand{
+	display:table-cell;
+	vertical-align: middle;
+	margin:0;
+	padding:0;
+	margin-right:3px;
+	width:25px;
+}
+.header {
+	color: #555555;
+	font-size: 16px;
+	text-align:center;
+	margin-top: 10px;
 }
